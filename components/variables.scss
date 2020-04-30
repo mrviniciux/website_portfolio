@@ -1,0 +1,60 @@
+/* Defaults variables
+      colors
+      backgrounds
+ */
+
+ $input_font_size: 13px;
+
+ /* Dark text on light backgrounds */
+ 
+ $color_primary: rgba(0, 0, 0, 0.87);
+ $color_secondary: rgba(0, 0, 0, 0.54);
+ $color_hint: rgba(0, 0, 0, 0.26);
+ 
+ /* background black'white variation */
+ 
+ $bg_secondary: rgba(0, 0, 0, .067);
+ 
+ /* default border-radius */
+ $radius: 3px;
+ $circle_radius: 50%;
+ 
+ /* icon sizes */
+ 
+ $xlg: 70px;
+ $lg: 54px;
+ $md: 49px;
+ 
+ /* min width */
+ 
+ $min_width_xs: 320px;
+ $min_width_sm: 450px;
+ $min_width_md: 640px;
+ $min_width_lg: 992px;
+ 
+ /* responsive  */
+ 
+ $media_xs: 460px;
+ 
+ /* custom properties with default padding material design */
+ 
+ $customSpace: 12px;
+ 
+ 
+ $shadowContainer: 0 1px 3px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 2px 1px -1px rgba(0, 0, 0, 0.12);
+
+
+ $defaultCornerSize: 12px;
+
+ $borderTop: $defaultCornerSize $defaultCornerSize 0px 0px;
+ $borderBottom: 0px 0px $defaultCornerSize $defaultCornerSize;
+ $border:  $defaultCornerSize $defaultCornerSize $defaultCornerSize $defaultCornerSize;
+ $borderTopRight: 0px $defaultCornerSize 0px 0px;
+ $borderTopLeft: $defaultCornerSize 0px 0px 0px;
+ $borderBottomRight: 0px 0px $defaultCornerSize 0px;
+ $borderBottomLeft: 0px 0px 0px $defaultCornerSize;
+
+ .default-box-shadow {
+      box-shadow: $shadowContainer;
+}
+    
