@@ -1,5 +1,7 @@
 @import "variables";
+@import "index";
 @import "Concern/Show";
+@import "ImageIconButton/ImageIconButton";
 @import "Menu/sidenav";
 @import "Breadcrumb/RecursiveBreadcrumb";
 @import "Table/DataTable";
@@ -242,6 +244,10 @@ button::-moz-focus-inner {
   
   .font-bold {
     font-weight: 700;
+  }
+
+  .cursor-pointer{
+    cursor: pointer;
   }
   
   /* NO-[SOMETHING] helper class to clear properties  */

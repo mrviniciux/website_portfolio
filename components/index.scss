@@ -1,0 +1,51 @@
+.text-rose{
+    color: #DC8D88 !important;
+}
+
+.font-light-override {
+    font-weight: 300 !important;
+}
+
+.font-medium-override {
+    font-weight: 500 !important;
+  }
+
+
+.my-background{
+    min-height: 500px;
+    background-image: url('/static/images/background.png');
+    background-size: contain;
+    background-position: center;
+}
+
+.card-content{
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 5px 0 rgba(0,0,0,.23);
+    margin-top: 50px !important;
+    position: absolute !important;
+    padding: 12px;
+    width: 100%;
+    min-height: 75vh;
+}
+
+.profile-pic-container{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 16px;
+
+    .profile-pic{
+        width: 100%;
+        max-width: 300px;
+        box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 5px 0 rgba(0,0,0,.23);
+    }
+}
+
+.social-media-container{
+    margin-right: 15px !important;
+    margin-left: 10px !important;
+
+    padding-bottom: 18px;
+}
+
+.profile-info{
+    margin-left: 5%;
+}
