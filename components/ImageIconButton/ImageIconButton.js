@@ -13,7 +13,7 @@ export default class ImageIconButton extends Component{
 
     render(){
         const style = {width: this.props.dimensions[0], height: this.props.dimensions[1]};
-        return (<a href={this.props.link}><img className="social-media-png" style={style}  src={this.props.url} /></a>);   
+        return (<a href={this.props.link}><img className="social-media-png" style={style}  src={this.props.url} alt={this.props.alt}/></a>);   
     }
 
 }

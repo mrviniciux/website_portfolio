@@ -1,8 +1,12 @@
 /* eslint-disable */
 const withSass = require('@zeit/next-sass')
 const withCss = require('@zeit/next-css')
+const withLess = require('@zeit/next-less')
 
-module.exports = withSass(withCss({
+module.exports = withLess(withSass(withCss({
+  lessLoaderOptions: {
+    javascriptEnabled: true
+  },
   webpack: (config, { isServer }) => {
     if (isServer) {
       const antStyles = /antd\/.*?\/style\/css.*?/
@@ -26,4 +30,4 @@ module.exports = withSass(withCss({
     }
     return config
   },
-}));
+})));
