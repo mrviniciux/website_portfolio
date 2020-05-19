@@ -15,7 +15,7 @@
   }
 
 
-.my-background{
+.main-background{
     min-height: 500px;
     background-image: url('/static/images/background.jpg');
     background-size: cover;
@@ -25,7 +25,6 @@
 .card-content{
     box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 5px 0 rgba(0,0,0,.23);
     margin-top: 50px !important;
-    position: absolute !important;
     padding: 12px;
     width: 100%;
     min-height: 75vh;
@@ -52,4 +51,11 @@
 
 .profile-info{
     margin-left: 5%;
+}
+
+
+
+.credits{
+    width: 100%;
+    margin-top: 18px;
 }
