@@ -1,12 +1,8 @@
-# NextJS Base Project for AntDesign
+# Mrviniciux.me
 
-This is my base project for React and AntDesign based applications. 
+My main website for those who seek for a portfolio website project or just take a look. Use however you want. 
 
-In this demonstration case, there is a fixed api configured to return some default values. Default values like a login confirmation or values to employees CRUD.
-
-Still have some improvements to do like components test and build more flexible and iterable selects and autocompletes. 
-
-It's extremely recommended to read about design values and principles on Ant Design website: https://ant.design/docs/spec/values
+[![Website preview](https://i.imgur.com/eWUCp6x.png "Website preview")](https://i.imgur.com/eWUCp6x.png "Website preview")
 
 Requirements: 
 
@@ -15,8 +11,8 @@ Requirements:
 
 <b>Developer mode:</b>
 
- 1- git clone https://github.com/mrviniciux/next_base_ant.git <br>
- 2- cd next_base_ant <br>
+ 1- git clone https://github.com/mrviniciux/website_portfolio.git <br>
+ 2- cd website_portfolio <br>
  3- yarn <br>
  3- yarn dev
 
@@ -30,7 +26,5 @@ Starts on localhost:3000
 You can change the port on package.json file or set environment var. 
 
 
-##TODO
 
-* Create a NodeJS api base to integrate with next_base;
-* Component tests; 
+Icons by: https://www.flaticon.com/
