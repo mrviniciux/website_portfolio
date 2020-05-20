@@ -22,11 +22,11 @@ function MyApp({ Component, pageProps }) {
       <meta property="og:title" content="mrviniciux"/>
       <meta property="og:description" content="Frontend developer in Blumenau - SC - Brazil"/>
       <meta property="og:type" content="website"/>
-      <meta property="og:image" content="/static/images/profile.png"/>
+      <meta property="og:image" content="/static/images/profile.jpg"/>
 
       <meta name="twitter:title" content="mrviniciux.me"/>
       <meta name="twitter:description" content="Frontend developer in Blumenau - SC - Brazil"></meta>
-      <meta name="twitter:image" content="/static/images/profile.png"></meta>
+      <meta name="twitter:image" content="/static/images/profile.jpg"></meta>
 
     </Head>
     <Component {...pageProps} />
