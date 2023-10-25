@@ -18,7 +18,7 @@
     "antd": "latest",
     "js-cookie": "^2.2.0",
     "less": "^3.11.1",
-    "next": "9.0.5",
+    "next": "13.5.0",
     "next-cookies": "^1.1.2",
     "next-redux-wrapper": "^3.0.0-alpha.3",
     "node-sass": "^4.12.0",
